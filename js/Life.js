@@ -3,7 +3,7 @@
  */
 // Pjax用其他脚本封装函数
 function otherF() {
-
+$('body').append('<div id="stars"></div><div id="stars2"></div><div id="stars3"></div>')
 // 文章页标签云随机色
 var tag_cloud = $('.blog-post-page-tags>a');
 tag_cloud.each(function () {
